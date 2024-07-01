@@ -21,9 +21,9 @@ app.use("/static", express.static(path.join(__dirname, "public")));
 app.use("/admin", adminRoutes);
 app.use(userRoutes); 
 
-app.get('/', (req, res) => {
-    res.send("Ana sayfa");
-}); // burayı ekledimmmmmmmmmm
+// app.get('/', (req, res) => {
+//     res.send("Ana sayfa");
+// }); // burayı ekledimmmmmmmmmm
 
 
 app.listen(3000, function() {
